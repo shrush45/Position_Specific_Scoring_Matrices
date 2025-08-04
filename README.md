@@ -37,8 +37,8 @@ A **Position-Specific Scoring Matrix (PSSM)** (also known as PWM or profile matr
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/pssm-matrix-generator.git
-cd pssm-matrix-generator
+git clone github.com/shrush45/Position_Specific_Scoring_Matrices
+cd Position_Specific_Scoring_Matrices
 ```
 
 2. Install the required libraries (if not already installed):
@@ -60,6 +60,7 @@ Install Clustal Omega (example for Ubuntu):
 ```bash
 sudo apt install clustalo
 ```
+Can download clustal omega from their website (windows user)
 
 ---
 5. Replace the example FASTA file with your aligned sequence file.
@@ -100,3 +101,11 @@ Feel free to open issues or reach out via [LinkedIn](https://www.linkedin.com/) 
 **Shrushti Salunke**  
 Working in consumer genomics with a passion for bioinformatics and biological data modeling.
 >>>>>>> 789e009 (Add PSSM README.md file)
+
+## References used 
+
+https://en.wikipedia.org/wiki/Position_weight_matrix#:~:text=The%20corresponding%20PFM%20is%3A
+
+https://cs.rice.edu/~ogilvie/comp571/pssm/
+
+https://doi.org/10.1093/biomethods/bpac008
